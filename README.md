@@ -1,10 +1,10 @@
 # Photosort
-A program written in Go that sorts images based on EXIF metadata into folders.
+A program written in Go that sorts images based on EXIF metadata into date-assigned folders.
 
-# Use
-To use the program, compile on Go 1.18 and run once to generate config file.
+# Usage
+To use the program, compile on Go 1.18 or later and run once to generate config file.
 
-After applying config, run the program again.
+After applying your desired config, run the program again.
 
 # Config
 `inputDir` - input photo directory
