@@ -86,5 +86,5 @@ func main() {
 			log.Println(err)
 		}
 	}
-	IncrementNextImage(cfg.NextImage + count - unknowns)
+	IncrementNextImage(cfg.NextImage + count - unknowns + 1)
 }
